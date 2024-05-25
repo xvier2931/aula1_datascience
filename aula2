@@ -1,0 +1,1675 @@
+# Se for pra calcular numeros com int(), é necessario ser do tipo int() ou flot()
+#
+#numero1 = input('digite um numero')
+#numero2 = input('digite um numero')
+#soma = numero1 + nuemro2
+#print(soma)
+
+#dado = True
+#print(dado)
+
+#lista0 = []
+#lista1 = [10,2,3,4]
+#lista2 = [10.0,2.0,3.0,4.0]
+#lista3 = ['10','2','3','4']
+#lista4 = [True, False]
+
+#print(lista1[-4])
+
+
+#tuple()
+#tupla1 = (1,2,3)
+#tupla2 = (1,2,5.2)
+#tupla3 = ('a','b')
+#tupla3 = (True, False)
+
+#print(tupla1[-1])
+
+
+#add = append()
+#lista2.append(2)
+#soma= sum(lista2)
+#print(soma)
+#maoir =max(lista2)
+#menor =min(lista2)
+#n1=10
+#n2=20
+#n3=21
+
+#nova_lista =(n1,n2,n3)
+#print(lista2)
+#print('soma:' ,soma)
+#print('maior' ,maior)
+#print('menor' ,menor)
+#sum= somar
+
+#cidade = input('digite sua cidade')
+#aeroporto = input('Digite o aeroporto:')
+#if cidade == 'Guarulhos' and aeroporto == ' Cumbica':
+    #print('Embarque no SL 10')
+#else:
+    #print('Embarque no TL 20')
+
+
+
+
+
+
+#1 - Crie um programa para efetuar a leitura de um número inteiro e apresentar o resultado do quadrado deste número.
+
+#numero1 = int(input('Digite um numero'))
+#quadrado = numero1 **2
+#print(quadrado)
+#print(lp,numero)
+
+#5 -Declare uma variável contendo uma frase. Em seguida, peça ao usuário para digitar uma palavra e concatene essa palavra no final da frase. Exiba o resultado.
+
+#px = " Good morning world"
+#palavra = str(input('Digite uma palavra'))
+#print(px,palavra)
+
+#Exercício 1: Coletando Dados de Experimentos
+
+#resultados_experimentos = [1,2,3]
+#resultados_experimentos.append(10)
+#print(resultados_experimentos)
+
+#Exercício 2: Analisando a Soma de Dados de Vendas
+
+#vendas = [150, 220, 180, 210, 190]
+#soma = sum(vendas)
+#print(soma)
+
+#Exercício 3 : Identificando o Melhor Modelo de Machine Learning
+
+#precisoes = [0.85, 0.92, 0.78, 0.88, 0.90]
+#maximo = max(precisoes)
+#print(maximo)
+
+#Exercício 4: Limpeza de Dados
+
+#dados = [120, 130, None, 140, 120, 150, None]
+#dados.clear()
+#print(dados)
+
+#
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       Exercício 5: Copiando um Conjunto de Dados
+
+#dados_originais = [35, 40, 45, 50, 55]
+#copia = dados_originais.copy()
+#print(copia)
+
+#Exercício 6 : Expandindo o Conjunto de Dados
+
+#amostras = [0.5, 0.6, 0.7]
+#print(amostras)
+
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       
+#2 -Crie duas variáveis para armazenar seu primeiro nome e sobrenome. Em seguida, concatene-as para formar seu nome completo e exiba o resultado.
+
+#nome1 = str(input('Digite seu nome'))
+#nome2 = str(input('Digite seu sobrenome'))
+#print( 'nome', nome1, 'sobrenome' , nome2)
+
+#3 -Peça ao usuário para digitar dois números inteiros e armazene-os em variáveis. Realize a concatenação desses números como strings e exiba o resultado.
+
+#numero_1 = int(input('Digite um numero'))
+#numero_2 = int(input('Digite outro numero'))
+
+#n1 = numero_1
+#n2 = numero_2
+#print(n1,n2)
+
+#4 -Crie uma variável para armazenar a palavra "Python". Em seguida, adicione um número inteiro ao final da palavra usando a concatenação e exiba o resultado.
+
+#lp = "Python"
+#numero = int(input('Digite um numero'))
+#print(lp,numero)
+
+#5 -Declare uma variável contendo uma frase. Em seguida, peça ao usuário para digitar uma palavra e concatene essa palavra no final da frase. Exiba o resultado.
+
+#px = " Good morning world"
+#palavra = str(input('Digite uma palavra'))
+#print(px,palavra)
+
+#Exercício 1: Coletando Dados de Experimentos
+
+#resultados_experimentos = [1,2,3]
+#resultados_experimentos.append(10)
+#print(resultados_experimentos)
+
+#Exercício 2: Analisando a Soma de Dados de Vendas
+
+#vendas = [150, 220, 180, 210, 190]
+#soma = sum(vendas)
+#print(soma)
+
+#Exercício 3 : Identificando o Melhor Modelo de Machine Learning
+
+#precisoes = [0.85, 0.92, 0.78, 0.88, 0.90]
+#maximo = max(precisoes)
+#print(maximo)
+
+#Exercício 4: Limpeza de Dados
+
+#dados = [120, 130, None, 140, 120, 150, None]
+#dados.clear()
+#print(dados)
+
+#
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       Exercício 5: Copiando um Conjunto de Dados
+
+#dados_originais = [35, 40, 45, 50, 55]
+#copia = dados_originais.copy()
+#print(copia)
+
+#Exercício 6 : Expandindo o Conjunto de Dados
+
+#amostras = [0.5, 0.6, 0.7]
+#print(amostras)
+
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #numero_1  =  float(input('Digite um numero: '))
+#numero_2  =  float(input('Digite outro numero: '))
+#operacao = input('Digite a operação + | - | * | /')
+
+#if  #operacao == '+':
+    #soma = numero_1 + numero_2
+    #print('Soma = {soma}')
+
+
+#elif operacao == '-':
+    #subtracao = numero_1 - numero-2
+    #print('Subtracao =',subtracao)
+
+#elif operacao == '/':
+     #divisao = numero_1 / numero-2
+     #print('Divisão= %d'%(divisao))  
+
+#elif operacao == '*':
+    #multiplica = numero_1 * numero-2
+    #print('Multiplicacao = {}'.format (multiplica))
+
+
+
+#1 - Crie um programa para efetuar a leitura de um número inteiro e apresentar o resultado do quadrado deste número.
+
+#numero1 = int(input('Digite um numero'))
+#quadrado = numero1 **2
+#print(quadrado)
+#print(lp,numero)
+
+#5 -Declare uma variável contendo uma frase. Em seguida, peça ao usuário para digitar uma palavra e concatene essa palavra no final da frase. Exiba o resultado.
+
+#px = " Good morning world"
+#palavra = str(input('Digite uma palavra'))
+#print(px,palavra)
+
+#Exercício 1: Coletando Dados de Experimentos
+
+#resultados_experimentos = [1,2,3]
+#resultados_experimentos.append(10)
+#print(resultados_experimentos)
+
+#Exercício 2: Analisando a Soma de Dados de Vendas
+
+#vendas = [150, 220, 180, 210, 190]
+#soma = sum(vendas)
+#print(soma)
+
+#Exercício 3 : Identificando o Melhor Modelo de Machine Learning
+
+#precisoes = [0.85, 0.92, 0.78, 0.88, 0.90]
+#maximo = max(precisoes)
+#print(maximo)
+
+#Exercício 4: Limpeza de Dados
+
+#dados = [120, 130, None, 140, 120, 150, None]
+#dados.clear()
+#print(dados)
+
+#
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       Exercício 5: Copiando um Conjunto de Dados
+
+#dados_originais = [35, 40, 45, 50, 55]
+#copia = dados_originais.copy()
+#print(copia)
+
+#Exercício 6 : Expandindo o Conjunto de Dados
+
+#amostras = [0.5, 0.6, 0.7]
+#print(amostras)
+
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       
+#2 -Crie duas variáveis para armazenar seu primeiro nome e sobrenome. Em seguida, concatene-as para formar seu nome completo e exiba o resultado.
+
+#nome1 = str(input('Digite seu nome'))
+#nome2 = str(input('Digite seu sobrenome'))
+#print( 'nome', nome1, 'sobrenome' , nome2)
+
+#3 -Peça ao usuário para digitar dois números inteiros e armazene-os em variáveis. Realize a concatenação desses números como strings e exiba o resultado.
+
+#numero_1 = int(input('Digite um numero'))
+#numero_2 = int(input('Digite outro numero'))
+
+#n1 = numero_1
+#n2 = numero_2
+#print(n1,n2)
+
+#4 -Crie uma variável para armazenar a palavra "Python". Em seguida, adicione um número inteiro ao final da palavra usando a concatenação e exiba o resultado.
+
+#lp = "Python"
+#numero = int(input('Digite um numero'))
+#print(lp,numero)
+
+#5 -Declare uma variável contendo uma frase. Em seguida, peça ao usuário para digitar uma palavra e concatene essa palavra no final da frase. Exiba o resultado.
+
+#px = " Good morning world"
+#palavra = str(input('Digite uma palavra'))
+#print(px,palavra)
+
+#Exercício 1: Coletando Dados de Experimentos
+
+#resultados_experimentos = [1,2,3]
+#resultados_experimentos.append(10)
+#print(resultados_experimentos)
+
+#Exercício 2: Analisando a Soma de Dados de Vendas
+
+#vendas = [150, 220, 180, 210, 190]
+#soma = sum(vendas)
+#print(soma)
+
+#Exercício 3 : Identificando o Melhor Modelo de Machine Learning
+
+#precisoes = [0.85, 0.92, 0.78, 0.88, 0.90]
+#maximo = max(precisoes)
+#print(maximo)
+
+#Exercício 4: Limpeza de Dados
+
+#dados = [120, 130, None, 140, 120, 150, None]
+#dados.clear()
+#print(dados)
+
+#
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       Exercício 5: Copiando um Conjunto de Dados
+
+#dados_originais = [35, 40, 45, 50, 55]
+#copia = dados_originais.copy()
+#print(copia)
+
+#Exercício 6 : Expandindo o Conjunto de Dados
+
+#amostras = [0.5, 0.6, 0.7]
+#print(amostras)
+
+#Exercício 7: Contando Valores Únicos
+
+#coluna = ["A", "B", "C", "A", "B", "D", "E"]
+#quantidade = coluna.count(4)   
+#print(quantidade)
+
+#lista = [ 1,6,6,9,6,69]
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       #dado = int(input('>>'))
+#lista.append(dado)
+#if dado > 10:
+    #print(f'''0 dado inserido é, {dado} na lista {lista}, é maior que 10''')
+
+#elif dado < 10:
+    #print(f'''0 dado inserido é, {dado}na lista {lista}, é menor que 10''')
+
+#else:
+    #print('Digite um numero')
+
+#import random
+
+#aleatorio = random.randint(1,10)
+#chute = int(input('Digite um número>>'))
+
+#if aleatorio == chute:
+    #print('Acertou', aleatorio)
+#else:
+   # print('Errou', aleatorio)
+
+
+#print('Bem vindo, por favor digite seus dados nos campos a seguir')
+#email = str(input('Digite seu email'))
+#cpf = int(input('Digite seu cpf'))
+#rg = int(input('Digite sue rg'))
+#senha = str(input('Digite sua senha'))
+
+#print('Lista de produtos')
+
+#lista1 = ['sevidor', 'mouse', 'teclado', 'monitor', 'mousepad,']
+#print(lista1)
+#print('Lista de valores')
+#lista2 = [695,10.90,29.99,519.99,11.90]
+#print(lista2)
+#print('Selecione o produto que deseja')
+#produto = ('monitor')
+#print(produto)
+
+
+
+#forma_de_pagamento = str(input('Digite a forma de pagamento que deseja'))
+#print('valor do produto:519.99')
+#print('pagamento efetuado com sucesso')
+#print('Obrigada, volte sempre !')
+
+
+#for n in range (1,6):
+    #print('bom dia',n)
+
+#for i in 'lucas':
+    #print(i)
+
+#import random
+
+#for n in range(1,11):
+   #numero = random.randint(1,5)
+   #print(numero)
+
+
+#acesso = input('>>')
+
+#lista = [1,2,3]
+#for n in lista:
+    #acesso = input('Digite sua senha>>')
+    #if acesso != '1234':
+       #print('Negado')
+       #if n ==3:
+    #print('Chances esgotadas', n)
+#else:
+        #print('Autorizado')
+
+print('Bem vindo')
+for n in range(1,4):
+    lista=[10000.0]
+    senha = '2931'
+    acesso  = input('Digite sua senha >>')
+    if acesso  == senha :
+        print('Autorizado')
+        
+         
+        
+        break
+         
+      
+    else:
+       print('Acesso Negado')
+print('valor do saldo disponível 1000')
+print('operacao disponivel: saque ou deposito')
+operacao = int(input('Digite a operacao que deseja'))
+operacao2 = ('saque')
+print(operacao)
+       
